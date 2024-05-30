@@ -1,0 +1,75 @@
+body{
+  
+  background-image: repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(151, 26, 210),rgb(57, 199, 205));;
+  
+}
+img{
+  
+  height: 40vh !important;
+  width: 100% !important;
+}
+.cardbody{
+  background-color: aqua;
+}
+.input-group-text {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px; /* Adjust the font size as needed */
+  padding: 8px 12px; /* Adjust the padding as needed */
+  box-shadow: 0 0 10px 3px #007bff;
+}
+
+.d-flex.justify-content-center button {
+  position: relative;
+  background-color: #007bff; /* Blue button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: box-shadow 0.3s ease;
+}
+
+.d-flex.justify-content-center button:hover {
+  box-shadow: 0 0 20px #007bff; /* Blue glow color and size on hover */
+}
+
+.d-flex.justify-content-center button:focus {
+  outline: none; /* Remove the default focus outline */
+  box-shadow: 0 0 20px #007bff; /* Blue glow color and size when focused */
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px #007bff; /* Blue glow color and size */
+  }
+  50% {
+    box-shadow: 0 0 20px #007bff; /* Blue glow color and size */
+  }
+  100% {
+    box-shadow: 0 0 10px #007bff; /* Blue glow color and size */
+  }
+}
+
+.bg-sandle{
+  background-color: sandybrown;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  img {
+    height: auto !important;
+  }
+
+  .cardbody {
+    background-color: lightblue;
+  }
+}
+
+@media (max-width: 576px) {
+  .d-flex.justify-content-center button {
+    font-size: 16px;
+  }
+}
